@@ -13,7 +13,7 @@ int main(){
         if (cin.fail()){
             cout << "ERROR: The input is not a number. " << endl;
             cin.clear();
-            cin.ignore(1000, '\n'); // Remove the invalid input from the buffer
+            cin.ignore(1000, '\n');
             continue;
         }
         cout << "Now select one of the basic operations: +, -, * or /" << endl;
@@ -27,7 +27,7 @@ int main(){
         if (cin.fail()){
             cout << "ERROR: The input is not a number. ";
             cin.clear();
-            cin.ignore(1000, '\n'); // Remove the invalid input from the buffer
+            cin.ignore(1000, '\n');
             continue;
         }
         if (user_input_action == "+"){
